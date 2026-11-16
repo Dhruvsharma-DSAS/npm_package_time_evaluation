@@ -1,0 +1,38 @@
+{
+  "name": "api-latency-brief",
+  "version": "0.3.0",
+  "description": "Measure API waits and audit user-facing time estimates against recorded outcomes.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./capture": "./capture.js"
+  },
+  "files": [
+    "index.js",
+    "wait-audit.js",
+    "capture.js",
+    "cli.js"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "demo": "node examples/demo.js",
+    "demo:audit": "node examples/wait-audit.js"
+  },
+  "bin": {
+    "api-latency-brief": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dhruvsharma-DSAS/npm_package_time_evaluation.git"
+  },
+  "keywords": [
+    "api",
+    "latency",
+    "eta",
+    "testing",
+    "observability"
+  ]
+}

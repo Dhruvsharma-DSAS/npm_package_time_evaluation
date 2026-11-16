@@ -1,0 +1,10 @@
+node_modules/
+*.tgz
+.env
+.env.*
+!.env.example
+api-history.jsonl
+api-report.json
+wait-runs.json
+examples/*-report.json
+examples/api-report-completed.json
